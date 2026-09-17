@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe</title>
+    <link rel="stylesheet" href="desain.css" />
+    <div class="kotak-respon">CAFE INDONESIA</div>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="brand">KOPI XONE</div>
+        <ul class="nav-links">
+          <li><a href="home.html">Beranda</a></li>
+          <li><a href="daftar.html">Daftar Menu</a></li>
+          <li><a href="kontak.html">Reservasi</a></li>
+        </ul>
+      </nav>
+      <div class="card" style="max-width: 600px; margin: 0 auto">
+        <h2>Reservasi Tempat</h2>
+        <p style="color: #040405; margin-bottom: 1rem; font-size: 0.9rem">
+          Silahkan isi jika anda ingin Reservasi tempat di KOPI XONE
+        </p>
+        <form>
+          <div class="form-group">
+            <label>Nama Pemesan:</label>
+            <input
+              type="text"
+              placeholder="Masukkan nama anda..."
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label>Tempat :</label>
+            <select name="tempat">
+              <option>Indoor biasa</option>
+              <option>Indoor ber AC</option>
+              <option>Outdoor</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Jumlah :</label>
+            <select name="tempat">
+              <option>1-5 0rang</option>
+              <option>6-10 orang</option>
+              <option>>20 orang</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Hari/Tanggal:</label>
+            <input
+              type="text"
+              placeholder="Masukkan hari & tanggal"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label>Jam:</label>
+            <input
+              type="text"
+              placeholder="Masukkan jam reservasi"
+              class="form-control"
+            />
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%">
+            Reservasi
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
